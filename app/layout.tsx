@@ -17,7 +17,11 @@ export const metadata = {
   description: 'Portfolio website by Isemman James Arrojo.',
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en">
       {/* <body
